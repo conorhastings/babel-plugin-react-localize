@@ -1,0 +1,15 @@
+{
+    "presets": [
+        "env"
+    ],
+    "plugins": [
+        [
+            "../index.js",
+            {
+                "localizationBundle": {
+                    "appName": "Cool App"
+                }
+            }
+        ]
+    ]
+}

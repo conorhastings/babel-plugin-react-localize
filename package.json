@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-react-localize",
+  "version": "0.0.1-beta.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Conor Hastings",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-react-required-permissions": "0.0.1-beta",
+    "babel-types": "^6.26.0",
+    "react-localize": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
