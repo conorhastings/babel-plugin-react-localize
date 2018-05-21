@@ -1,5 +1,9 @@
 import { Text } from 'react-localize';
 class X extends React.Component {
+    static contextTypes = {
+        localize: PropTypes.func
+    }
+
     render() {
         return (
             <div>
