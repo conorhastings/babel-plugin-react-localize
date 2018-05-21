@@ -1,13 +1,15 @@
 {
     "presets": [
-        "env"
+        "env",
+        "react"
     ],
     "plugins": [
         [
             "../index.js",
             {
                 "localizationBundle": {
-                    "appName": "Cool App"
+                    "appName": "Cool App",
+                    "prop.Val": "Wow %s"
                 }
             }
         ]
