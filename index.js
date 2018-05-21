@@ -1,6 +1,5 @@
 const formatter = require("react-localize/build/util/localize-formatter");
 
-
 module.exports = function(babel) {
   const { types: t } = babel;
   const jsxVisitor = {
